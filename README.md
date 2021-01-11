@@ -1,2 +1,2 @@
-# FPGA_Architecture-CAD
+# FPGA_Architecture & CAD
 NTHU CS516000, 2020 Fall.
