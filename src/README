@@ -1,0 +1,18 @@
+--How to Compilie
+In this directory, enter the following command:
+$ make
+It will generate the excutable file "fpga_project" in Project/bin/.
+
+If you want to remove it, please enter the following command:
+$ make clean
+
+--How to Run
+  In this directory, enter the following command:
+  Usage: ../bin/<exe> <info file> <nets file> <placement/output file>
+  e.g.:
+  $ ../bin/fpga_project ../benchmarks/frisc_4.info ../benchmarks/frisc_4.nets ../outputs/frisc_4.placement
+
+  In "Project/bin/", enter the following command:
+  Usage: ./<exe> <info file> <nets file> <placement/output file>
+  e.g.:
+  $ ./fpga_project ../benchmarks/frisc_4.info ../benchmarks/frisc_4.nets ../outputs/frisc_4.placement
